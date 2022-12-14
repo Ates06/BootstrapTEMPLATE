@@ -1,0 +1,32 @@
+.a_header{
+    width: 100%;
+    min-height: 70px;
+    float: left;
+    background: yellow;
+    margin-bottom: 15px;
+}
+.a_nav, .a_article, .a_ads{
+    width: 100%;
+    min-height: 400px;
+    float: left;
+    background: yellow;
+    
+}
+.a_footer{
+    width: 100%;
+    min-height: 70px;
+    float: left;
+    background: yellow;
+    margin-top: 15px;
+}
+@media only screen and (max-width: 768px) {
+    .a_nav, .a_article, .a_ads{
+        min-height: 200px;
+    }
+    .a_article{
+        margin: 15px 0px;
+    }
+    .noPadding{
+        padding: 0px;
+    }
+}
